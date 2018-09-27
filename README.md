@@ -4,7 +4,7 @@
 
 config/server.properties
 
-
+`
 ############################# Socket Server Settings #############################
 # The address the socket server listens on. It will get the value returned from 
 # java.net.InetAddress.getCanonicalHostName() if not configured.
@@ -20,3 +20,4 @@ listeners=PLAINTEXT://{内网ip}:9092
 # returned from java.net.InetAddress.getCanonicalHostName().
 #advertised.listeners=PLAINTEXT://your.host.name:9092
 advertised.listeners=PLAINTEXT://{外网ip}:9092
+`
